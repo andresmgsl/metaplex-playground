@@ -1,0 +1,21 @@
+{
+  "name": "metaplex-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@solana/wallet-adapter-base": "^0.4.1",
+    "@solana/wallet-adapter-phantom": "^0.4.1",
+    "@solana/web3.js": "^1.24.1"
+  }
+}
